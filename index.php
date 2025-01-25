@@ -158,7 +158,7 @@
         <h3>Доступные пасты:</h3>
 
         <?php
-        $pasteDir = '/';
+        $pasteDir = 'pastes/';
         $files = scandir($pasteDir);
 
         foreach ($files as $file) {
